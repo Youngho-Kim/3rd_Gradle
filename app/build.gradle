@@ -13,10 +13,10 @@ android {
     }
     signingConfigs {
         release {
-            storeFile file("../../keystore/keystore.jks")
-            storePassword "12345678"
-            keyAlias "testKey"
-            keyPassword "12345678"
+            storeFile file("c:/workspaces/3rd_android/keystore/keystore.jks")
+            storePassword storePw
+            keyAlias keyId
+            keyPassword keyPw
         }
     }
 
